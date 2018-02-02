@@ -2,7 +2,7 @@
 layout: post
 title: "Updated Milestones, 15-400"
 description: "Altered due to new information on the scope of the task"
-date: 2016-11-04
+date: 2018-02-02
 tags: [Forensics, PPP]
 comments: true
 share: true
@@ -15,9 +15,11 @@ Febuary 16:  Have attempted to find a generalizable way to extract election data
 March 2:  Have experimented with a few different methods in order to identify a way to efficiently represent the districts.  Some initial approaches could include (1) adopting a cartogram method and overlying a grid on top or (2) finding some objective function that provides a rough heuristic to preserve geography for the mapping and then using ILP to minimize this objective function
 March 16:  Use the method identified from task 2 to construct a very simple user interface that allows users to select districts within the constraints set forward by the protocol.   This does not involve the integration of the method, only the construction of the UI/UX interface.
 March 30:  Integrate the method into the interface
-April 13th: ?? 
-April 27:   ??
+April 13th: Trial the interface in practice and see what kind of districtings are produced.  Write up a brief report on whether the interface is of high quality.  If it is not, identify an alternative cartogram algorithm or complete an approach using an objective function.
+April 27:   Modify the task as decided at the April 13th Milestone.
 May 11:  Finalize a report of results from the semester
 
 
-Should I spread this out more?  What should I do for 75, 100, and 125 percent goals?
+75 percent goal:  Implement a cartogram algorithm and a UX/UI
+100 percent goal:  Completely implement the final cartogram algorithm and UX/UI that works well for this task
+125 percent goal:  Complete the 100 percent goal and integrate a 2-player version of the protocol
