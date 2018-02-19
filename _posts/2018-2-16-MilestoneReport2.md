@@ -10,7 +10,7 @@ share: true
 
 [Link to PDF](/files/MilestoneReport2.pdf)
 
-Below are some images of Carto3F segmentation on PA:
+Below is the first image resulting from Carto3F segmentation on PA's 2010 dataset:
 
 ![PA first cut with low-degrees of refinement and high tolerances](/images/PANaive.png){:class="img-responsive"}
 
